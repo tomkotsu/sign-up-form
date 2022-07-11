@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Deni -Sign Up</title>
+</head>
+<body>
+    <div class="bg-container">
+        <div class="logo-banner"></div>
+        <img class="header-img" src="imgs/island.png">
+        <p class="deni">DENI</p>
+        </div>
+    </div>
+    <div class="right-container">
+    <div class="top-text">
+        <p>Sign up below to receive our weekly newsletter with the latest
+             information on all things solar: Panels, batteries and advances in
+              technology that could help YOU save the planet while saving on your 
+              energy bill!
+        </p>
+    </div>
+    <form action="server.txt" method="post">
+        <div class="form-main">
+        <Legend>Sign up here!</Legend>
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" name="first_name" id="first_name">
+            <label for="last_name">LAST NAME</label>
+            <input type="text" name="last_name" id="last_name">
+            <br />
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="number" name="phone" id="phone">
+            <br />
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password">
+            <label for="conf_password">CONFIRM PASSWORD</label>
+            <input type="password" name="conf_password" id="conf_password">
+        </div>
+        <button type="submit">Create Account</button>
+        <p class="login">Already have an account? <a href="server.txt">Log In</a></p>
+    </form>
+    </div>
+</body>
+</html>
